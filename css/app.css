@@ -64,6 +64,7 @@ body {
 #app .app-top {
     flex-grow: 1;
     display: flex;
+    max-height: calc(100% - 100px);
 }
 
 #app .app-bottom {
@@ -155,3 +156,15 @@ body {
     height: 100%;
 }
 
+#app .page-footer .row {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#app .page-footer .link-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}

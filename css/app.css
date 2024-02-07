@@ -29,3 +29,22 @@ a, button {
 
 /* STYLE */
 
+body {
+    color: white;
+}
+
+.page-header {
+    background-color: #0E121B;
+}
+
+.page-content {
+    background-color: #141923;
+}
+
+.page-menu {
+    background-color: #000000;
+}
+
+.page-footer {
+    background-color: #141923;
+}

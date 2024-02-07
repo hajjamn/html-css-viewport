@@ -90,6 +90,10 @@ body {
     margin-top: auto;
 }
 
+#app .page-aside .logo {
+    font-size: 40px;
+}
+
 /* HEADER */
 
 /* MAIN */

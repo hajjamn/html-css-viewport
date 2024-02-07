@@ -20,11 +20,13 @@ a, button {
 .container {
     max-width: 1024px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 /* STYLE */
@@ -37,14 +39,60 @@ body {
     background-color: #0E121B;
 }
 
-.page-content {
-    background-color: #141923;
-}
-
-.page-menu {
+.page-aside {
     background-color: #000000;
 }
 
 .page-footer {
-    background-color: #141923;
+    background-color: #282828;
 }
+
+/* UTILITIES */
+
+.direction-col {
+    flex-direction: column;
+}
+
+/*APP */
+
+#app {
+    height: 100vh;
+    background-color: #141923;
+    display: flex;
+    flex-direction: column;
+}
+
+#app .app-top {
+    flex-grow: 1;
+    display: flex;
+}
+
+#app .app-bottom {
+    height: 100px;
+    flex-shrink: 0;
+}
+
+/* ASIDE */
+
+#app .page-aside {
+    width: 200px;
+    flex-shrink: 0;
+    padding: 20px;
+    height: 100%;
+}
+
+#app .page-aside .row {
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+#app .page-aside .profile {
+    margin-top: auto;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
+

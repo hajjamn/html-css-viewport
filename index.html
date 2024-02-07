@@ -7,66 +7,80 @@
     <title>Webapp layout</title>
 </head>
 <body>
-    <header class="page-header">
-        <div class="container">
-            <div>Abbonati</div>
-        </div>
-    </header>
-     
-    <main class="page-content">
-        <section>
-            <div class="container">
-                <div>Sezione 1</div>
-                <div class="row">
-                    <div class="main-sub-section"></div>
+    <div id="app">
+        <!-- TOP SECTION OF APP -->
+        <div class="app-top">
+            <!-- SIDE NAV BAR -->
+            <aside class="page-aside">
+                <div class="container">
+                    <div class="row direction-col">
+                        <div class="col-logo"><a href="#">Logo</a></div>
+                        <ul class="col-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Info</a></li>
+                            <li><a href="#">Users</a></li>
+                        </ul>
+                        <div class="profile">My profile</div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h1>Sezione 2</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, asperiores laboriosam harum vero hic inventore distinctio doloremque unde blanditiis ullam, iure earum corrupti? At sapiente aut veniam. Adipisci, nihil quasi.</p>
-                <ul>
-                    <li>Lorem, ipsum dolor.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur.</li>
-                    <li>Lorem, ipsum dolor.</li>
-                    <li>Lorem, ipsum.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <aside class="page-menu">
-        <div class="container">
-            <div class="row row-reverse">
-                <div class="col">Logo</div>
-                <ul class="col">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Info</a></li>
-                    <li><a href="#">Users</a></li>
-                </ul>
-                <div class="col">My profile</div>
-            </div>
+             </aside>
+             <!-- HEADER AND CONTENT -->
+             <div class="header-main">
+                <!-- HEADER -->
+                 <header class="page-header">
+                     <div class="container">
+                         <div class="row">
+                             <div class="sub-button">Abbonati</div>
+                         </div>
+                     </div>
+                 </header>
+                  <!-- CONTENT -->
+                 <main class="page-content">
+                     <section>
+                         <div class="container">
+                             <div>Sezione 1</div>
+                             <div class="row">
+                                 <div class="main-sub-section"></div>
+                             </div>
+                         </div>
+                     </section>
+                     <section>
+                         <div class="container">
+                             <h1>Sezione 2</h1>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, asperiores laboriosam harum vero hic inventore distinctio doloremque unde blanditiis ullam, iure earum corrupti? At sapiente aut veniam. Adipisci, nihil quasi.</p>
+                             <ul>
+                                 <li>Lorem, ipsum dolor.</li>
+                                 <li>Lorem ipsum dolor sit.</li>
+                                 <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                 <li>Lorem, ipsum dolor.</li>
+                                 <li>Lorem, ipsum.</li>
+                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                             </ul>
+                         </div>
+                     </section>
+                 </main>
+             </div>
         </div>
-     </aside>
-    
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col">Left</div>
-                <ul class="col">
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                </ul>
-                <div class="col">Right</div>
-            </div>
+        <!-- BOTTOM SECTION OF APP -->
+        <div class="app-bottom">         
+            <!-- FOOTER -->   
+            <footer class="page-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">Left</div>
+                        <ul class="col">
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                        </ul>
+                        <div class="col">Right</div>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </footer>
+    </div>
 </body>
 </html>

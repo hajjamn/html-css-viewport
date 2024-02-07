@@ -119,6 +119,36 @@ body {
 
 /* MAIN */
 
+#app .page-content {
+    padding: 20px;
+}
+
+#app .page-content .section-list h1 {
+    padding-bottom: 20px;
+}
+
+#app .page-content .section-list .row {
+    row-gap: 25px;
+}
+
+#app .page-content .section-list .main-sub-section {
+    border-left: 2px solid white;
+    width: calc(3 * 100% / 12);
+    padding: 0 15px;
+}
+
+#app .page-content .section-list .main-sub-section > h2 {
+    padding-bottom: 10px;
+}
+
+#app .page-content .section-list2 {
+    padding: 20px 0;
+}
+
+#app .page-content .section-list2 .container > * {
+    padding: 20px 0;
+}
+
 /* FOOTER */
 
 #app .page-footer {
